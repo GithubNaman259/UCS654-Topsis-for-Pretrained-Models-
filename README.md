@@ -20,8 +20,8 @@ performance and efficiency criteria.
 
 ## Models Evaluated
 
-DialoGPT-small DialoGPT-medium DialoGPT-large BlenderBot-400M
-BlenderBot-1B FLAN-T5-base FLAN-T5-large mT5-base GPT-2-medium LLaMA-7B
+DialoGPT-small, DialoGPT-medium, DialoGPT-large, BlenderBot-400M,
+BlenderBot-1B, FLAN-T5-base, FLAN-T5-large, mT5-base, GPT-2-medium, LLaMA-7B
 
 ------------------------------------------------------------------------
 

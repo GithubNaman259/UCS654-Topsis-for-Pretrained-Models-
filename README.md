@@ -20,8 +20,16 @@ performance and efficiency criteria.
 
 ## Models Evaluated
 
-DialoGPT-small, DialoGPT-medium, DialoGPT-large, BlenderBot-400M,
-BlenderBot-1B, FLAN-T5-base, FLAN-T5-large, mT5-base, GPT-2-medium, LLaMA-7B
+- DialoGPT-small
+- DialoGPT-medium
+- DialoGPT-large
+- BlenderBot-400M
+- BlenderBot-1B
+- FLAN-T5-base
+- FLAN-T5-large
+- mT5-base
+- GPT-2-medium
+- LLaMA-7B
 
 ------------------------------------------------------------------------
 
@@ -67,12 +75,7 @@ TOPSIS follows these steps:
 
 ## Result Table
 
-          Model  TopsisScore  Rank
-
-BlenderBot-400M 0.765653 1 FLAN-T5-base 0.762001 2 FLAN-T5-large
-0.749030 3 BlenderBot-1B 0.723696 4 DialoGPT-medium 0.706355 5
-DialoGPT-large 0.692904 6 mT5-base 0.685561 7 GPT-2-medium 0.685012 8
-DialoGPT-small 0.684785 9 LLaMA-7B 0.316383 10
+![Ranking Graph](result_table.png)
 
 ------------------------------------------------------------------------
 
@@ -98,9 +101,6 @@ computational efficiency (size, speed, memory).
 -   data.csv
 -   result.csv
 -   ranking_plot.png
--   topsis_chat.py
+-   Topsis for Pretrained Models.ipynb
 -   README.md
-
-------------------------------------------------------------------------
-
-This project is intended for academic use only.
+-   result_table.png
